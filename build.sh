@@ -12,7 +12,7 @@ OUTDIR=out
 ZIP="$OUTDIR/${ID}-${VER}.zip"
 APM="$OUTDIR/${ID}-${VER}.apm"
 
-EXCLUDE=('build.sh' 'README.md' '.gitignore' 'out/*' '*.zip' '*.apm')
+EXCLUDE=('build.sh' 'README.md' '.gitignore' 'out/*' '.git/*' '*.zip' '*.apm')
 
 rm -rf "$OUTDIR"
 mkdir -p "$OUTDIR"
