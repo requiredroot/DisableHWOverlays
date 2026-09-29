@@ -1,0 +1,6 @@
+id=force_disable_hw_overlays
+name=Force Disable HW Overlays
+version=v1.0
+versionCode=1
+author=requiredroot
+description=Forces the "Disable HW overlays" developer option to stay ON. Re-applies disable_hw_overlays=1 at every boot and re-enables it if anything turns it off.

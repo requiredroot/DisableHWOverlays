@@ -1,0 +1,2 @@
+disable_hw_overlays=1
+persist.sys.disable_hw_overlays=1
