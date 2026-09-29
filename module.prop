@@ -1,6 +1,6 @@
 id=force_disable_hw_overlays
 name=Force Disable HW Overlays
-version=v1.0
-versionCode=1
+version=v1.1
+versionCode=2
 author=requiredroot
-description=Forces the "Disable HW overlays" developer option to stay ON. Re-applies disable_hw_overlays=1 at every boot and re-enables it if anything turns it off.
+description=Forces the "Disable HW overlays" developer option to stay ON. Re-applies disable_hw_overlays=1 at every boot and re-enables it if anything turns it off. Disables the display hardware composer's overlay planes, so SurfaceFlinger composes every layer on the GPU (client composition). Debugging option, not a performance one.
